@@ -10,7 +10,7 @@ export default class OtherScreen extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>OtherScreen</Text>
+                <Text>Other Screen</Text>
                 <Button title="Press to test push" onPress={this._handleOnPress} />
             </View>
         );

@@ -9,7 +9,7 @@ export default class HomeScreen extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>HomeScreen</Text>
+                <Text>Home Screen Updated</Text>
                 <Button title="Go test push" onPress={this._showMoreApp} />
             </View>
         );
